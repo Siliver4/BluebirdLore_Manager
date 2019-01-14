@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BluebirdLore_Manager</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- librairies -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- SystemJS configuration-->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('dist/main.js').catch(function(err){ console.error(err); });
+    </script>
+</head>
+
+<body>
+<bluebirdlore_manager-app>Loading AppComponent content here ...</bluebirdlore_manager-app>
+</body>
+</html>
