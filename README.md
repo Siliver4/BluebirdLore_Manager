@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-      <a href="https://github.com/Siliver4/BluebirdLore_Manager">
+      <a href="https://raw.githubusercontent.com/Siliver4/BluebirdLore_Manager/master/assets/img/bluebird_logo.png">
         <img src="assets/img/bluebird_logo.png" alt="BluebirdLore_Manager_logo" width="247">
       </a>
     <br>
