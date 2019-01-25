@@ -58,12 +58,13 @@
     
 </pre>
 
-<ul id="menu" align="center" >
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/220px-IntelliJ_IDEA_Logo.svg.png" alt="angular" height="71" style="margin-left:4px;margin-right:4px;margin-bottom:10px">
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/250px-MongoDB-Logo.svg.png" alt="angular" height="47" style="margin-left:4px;margin-right:4px;margin-bottom:22px">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/220px-Expressjs.png" alt="angular" height="47" style="margin-left:4px;margin-right:4px;margin-bottom:17px">
-    <img src="https://angular.io/assets/images/logos/angular/shield-large.svg" alt="angular" height="81" style="margin-left:4px;margin-right:4px">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png" alt="angular" height="60" style="margin-left:4px;margin-right:4px;margin-bottom:10px">
-</ul>  
-
-
+<table>
+  <tr>
+      <th width="81px"></th>
+      <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/220px-IntelliJ_IDEA_Logo.svg.png" alt="angular" height="71"></th>
+      <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/250px-MongoDB-Logo.svg.png" alt="angular" height="47"></th> 
+      <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/220px-Expressjs.png" alt="angular" height="47"></th>
+      <th><img src="https://angular.io/assets/images/logos/angular/shield-large.svg" alt="angular" height="81" style=""></th>
+      <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png" alt="angular" height="60"></th>
+  </tr>
+</table>
