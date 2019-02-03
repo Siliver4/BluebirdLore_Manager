@@ -1,4 +1,4 @@
-:: command to launching the command line on windows with the current directory 
-:: setted up (shortcut)
+:: command to launch the command line on windows with the current directory
+:: set up (shortcut)
 
 cmd.exe
