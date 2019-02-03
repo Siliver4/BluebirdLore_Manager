@@ -58,6 +58,22 @@
     
 </pre>
 
+</br>
+
+<h4>Command to build the project :</h4>
+<p>To compile/transpile TypeScript files to JavaScript files use the command within the root directory :</p>
+<pre>tsc</pre>
+
+<p>To launch the node application server use the command within the root directory :</p>
+<pre>npm run lite-server</pre>
+ 
+ <h4>or</h4>
+ 
+<p>To compile/transpile TypeScript files to JavaScript AND launch the node application server, use the script "start.bat" within the root directory :</p>
+ <pre>start.bat</pre>
+
+</br>
+
 <h6 align="center">
     <ul>
         <a href="https://en.wikipedia.org/wiki/IntelliJ_IDEA">
