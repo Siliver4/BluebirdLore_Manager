@@ -1,7 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { LoreSheet } from './loreSheet';
+import { LORESHEETS } from './mock-loreSheets';
 
 @Component({
 	selector: 'bluebirdlore_manager-app',
-	template: `<h1>Hello, Angular !</h1>`,
+	templateUrl: 'app/templates/loreList.html',
 })
-export class AppComponent { }
+export class AppComponent implements OnInit {
+
+    loreSheets: LoreSheet[] = null;
+
+    ngOnInit() {
+        this.loreSheets = LORESHEETS;
+    }
+
+    selectLoreSheet(loreSheets: LoreSheet) {
+        console.log('Vous avez selectionné ' + loreSheets.title);
+    }
+}

@@ -1,0 +1,19 @@
+
+<h1 class='center'>Lore Sheets</h1>
+<div class='container'>
+    <div class="row">
+        <div *ngFor='let loreSheet of loreSheets' class="col s6 m4">
+            <div class="card horizontal" (click)="selectLoreSheet(loreSheet)">
+                <div class="card-image">
+                    <img [src]="loreSheet.imageURL">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>{{ loreSheet.title }}</p>
+                        <p><small>{{ loreSheet.Date }}</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

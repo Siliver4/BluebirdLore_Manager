@@ -10,6 +10,9 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "removeComments": false,
-    "outDir": "/dist"
-  }
+    "outDir": "./dist"
+  },
+  "include": [
+    "./app"
+  ]
 }
