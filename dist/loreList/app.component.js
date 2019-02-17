@@ -6,7 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var mock_loreSheets_1 = require("./mock-loreSheets");
+var mock_loreSheets_1 = require("../dataSchema/mock-loreSheets");
 var AppComponent = (function () {
     function AppComponent() {
         this.loreSheets = null;
@@ -22,7 +22,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'bluebirdlore_manager-app',
-        templateUrl: 'app/templates/loreList.html',
+        templateUrl: 'dist/loreList/loreList.html',
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

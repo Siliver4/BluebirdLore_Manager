@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { LoreSheet } from './loreSheet';
-import { LORESHEETS } from './mock-loreSheets';
+import { LoreSheet } from '../dataSchema/loreSheet';
+import { LORESHEETS } from '../dataSchema/mock-loreSheets';
 
 @Component({
 	selector: 'bluebirdlore_manager-app',
-	templateUrl: 'app/templates/loreList.html',
+	templateUrl: 'dist/loreList/loreList.html',
 })
 export class AppComponent implements OnInit {
 

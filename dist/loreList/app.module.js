@@ -8,6 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
+var bluebird_shadow_card_directive_1 = require("./bluebird-shadow-card.directive");
+var lore_category_color_pipe_1 = require("../pipes/lore-category-color.pipe");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -16,7 +18,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent],
+        declarations: [app_component_1.AppComponent, bluebird_shadow_card_directive_1.ShadowCardDirective, lore_category_color_pipe_1.LoreCategoryColorPipe],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);
